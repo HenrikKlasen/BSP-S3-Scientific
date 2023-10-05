@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.4.17)  3 OCT 2023 13:21
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.4.17)  5 OCT 2023 13:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -446,92 +446,39 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <4.51686> on input line 289.
 
-Underfull \hbox (badness 10000) in paragraph at lines 295--298
-
+Underfull \hbox (badness 1521) in paragraph at lines 330--330
+ \OT1/ptm/b/n/12.045 1. Main re-quired com-pe-ten-cies (44/100-200
  []
 
 
-Underfull \hbox (badness 1648) in paragraph at lines 299--300
-\OT1/ptm/b/n/9.03374 prepa-ra-tion sys-tem or us-ing any doc-u-ment prepa-ra-ti
-on
+Underfull \hbox (badness 1845) in paragraph at lines 336--336
+ \OT1/ptm/b/n/11.04124 1.1. Sci-en-tific main re-quired com-pe-ten-cies (44
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 299--300
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 318--319
-
- []
-
-LaTeX Font Info:    Calculating math sizes for size <10.03749> on input line 32
-2.
+LaTeX Font Info:    Calculating math sizes for size <10.03749> on input line 37
+8.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.03749> on input line 322.
+(Font)              <10.03749> on input line 378.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7.0262> on input line 322.
+(Font)              <7.0262> on input line 378.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5.01874> on input line 322.
-
-Underfull \hbox (badness 2913) in paragraph at lines 331--332
-[]\OT1/ptm/m/n/10.03749 Copying/reproducing sec-tions of an-other
- []
-
-
-Underfull \hbox (badness 2698) in paragraph at lines 333--334
-\OT1/ptm/m/n/10.03749 for one-self and sub-mit-ting/pub-lish-ing it
- []
-
+(Font)              <5.01874> on input line 378.
 [1{c:/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/texlive/202
 3/texmf-dist/fonts/enc/dvips/base/8r.enc}
 
 
 ]
-LaTeX Font Info:    Calculating math sizes for size <12.045> on input line 349.
-
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12.045> on input line 349.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8.43146> on input line 349.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6.02249> on input line 349.
+Underfull \hbox (badness 2913) in paragraph at lines 387--388
+[]\OT1/ptm/m/n/10.03749 Copying/reproducing sec-tions of an-other
+ []
 
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 349.
+Underfull \hbox (badness 2698) in paragraph at lines 389--390
+\OT1/ptm/m/n/10.03749 for one-self and sub-mit-ting/pub-lish-ing it
+ []
 
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 349.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 359.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\pm' on input line 359.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 359.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 363.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\pm' on input line 363.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 363.
-
-
-Underfull \hbox (badness 3209) in paragraph at lines 484--487
+Underfull \hbox (badness 3209) in paragraph at lines 487--490
 [] \OT1/ptm/m/n/8.03 BiCS Bach-e-lor Semester Project Re-port Tem-plate.
  []
 
@@ -541,11 +488,11 @@ Underfull \hbox (badness 3209) in paragraph at lines 484--487
 File: lstlang1.sty 2023/02/27 1.9 listings language file
 )
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
-nput line 508.
+nput line 511.
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <9.03374> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 514.
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 517.
 LaTeX Font Info:    Trying to load font information for TS1+phv on input line 5
-15.
+18.
 
 (c:/texlive/2023/texmf-dist/tex/latex/psnfss/ts1phv.fd
 File: ts1phv.fd 2020/03/25 scalable font definitions for TS1/phv.
@@ -566,30 +513,27 @@ Before submitting the final camera ready copy, remember to:
 
 ] (./main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 5A1DEA4F3A96AFB8B20D6B164CB362BD;1912.
+(rerunfilecheck)             Checksum: 76012759C24B89C1B31AD8040B8C61BB;2045.
  ) 
 Here is how much of TeX's memory you used:
- 12870 strings out of 476017
- 207737 string characters out of 5793766
+ 12844 strings out of 476017
+ 207360 string characters out of 5793766
  1907660 words of memory out of 5000000
- 33135 multiletter control sequences out of 15000+600000
- 559070 words of font info for 108 fonts, out of 8000000 for 9000
+ 33114 multiletter control sequences out of 15000+600000
+ 557245 words of font info for 102 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  75i,8n,117p,1006b,1577s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/tex
-live/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2023/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2023/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2023/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmsy9.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/he
-lvetic/uhvb8a.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.p
-fb><c:/texlive/2023/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb><c:/texlive
-/2023/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2023/texmf-dist/f
-onts/type1/urw/times/utmbi8a.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/ti
-mes/utmr8a.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (3 pages, 127935 bytes).
+<c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texl
+ive/2023/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb><c:/texlive/2023/texmf-
+dist/fonts/type1/urw/helvetic/uhvr8a.pfb><c:/texlive/2023/texmf-dist/fonts/type
+1/urw/helvetic/uhvro8a.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/times/ut
+mb8a.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb><c:/texl
+ive/2023/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2023/texmf-dis
+t/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (3 pages, 92630 bytes).
 PDF statistics:
- 175 PDF objects out of 1000 (max. 8388607)
- 144 compressed objects within 2 object streams
+ 154 PDF objects out of 1000 (max. 8388607)
+ 131 compressed objects within 2 object streams
  55 named destinations out of 1000 (max. 500000)
  73 words of extra memory for PDF output out of 10000 (max. 10000000)
 
