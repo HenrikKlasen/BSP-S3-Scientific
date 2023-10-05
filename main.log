@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.4.17)  5 OCT 2023 13:11
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.4.17)  5 OCT 2023 13:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -446,11 +446,6 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <4.51686> on input line 289.
 
-Underfull \hbox (badness 1521) in paragraph at lines 330--330
- \OT1/ptm/b/n/12.045 1. Main re-quired com-pe-ten-cies (44/100-200
- []
-
-
 Underfull \hbox (badness 1845) in paragraph at lines 336--336
  \OT1/ptm/b/n/11.04124 1.1. Sci-en-tific main re-quired com-pe-ten-cies (44
  []
@@ -512,8 +507,14 @@ Before submitting the final camera ready copy, remember to:
 
 
 ] (./main.aux)
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 76012759C24B89C1B31AD8040B8C61BB;2045.
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: D0475548B50F4BA835F9EE358D23EA2C;2169
+(rerunfilecheck)             After:  46687DEF31DE4B94149B840E8124600D;2153.
  ) 
 Here is how much of TeX's memory you used:
  12844 strings out of 476017
@@ -530,7 +531,7 @@ dist/fonts/type1/urw/helvetic/uhvr8a.pfb><c:/texlive/2023/texmf-dist/fonts/type
 mb8a.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb><c:/texl
 ive/2023/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2023/texmf-dis
 t/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (3 pages, 92630 bytes).
+Output written on main.pdf (3 pages, 93830 bytes).
 PDF statistics:
  154 PDF objects out of 1000 (max. 8388607)
  131 compressed objects within 2 object streams
