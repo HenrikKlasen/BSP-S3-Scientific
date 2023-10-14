@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.4.17)  6 OCT 2023 10:21
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.4.17)  14 OCT 2023 14:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -450,44 +450,60 @@ Underfull \hbox (badness 1845) in paragraph at lines 335--335
  \OT1/ptm/b/n/11.04124 1.1. Sci-en-tific main re-quired com-pe-ten-cies (44
  []
 
-LaTeX Font Info:    Calculating math sizes for size <10.03749> on input line 37
-9.
+LaTeX Font Info:    Calculating math sizes for size <10.03749> on input line 34
+7.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.03749> on input line 379.
+(Font)              <10.03749> on input line 347.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7.0262> on input line 379.
+(Font)              <7.0262> on input line 347.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5.01874> on input line 379.
+(Font)              <5.01874> on input line 347.
 [1{c:/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/texlive/202
 3/texmf-dist/fonts/enc/dvips/base/8r.enc}
 
 
 ]
-Underfull \hbox (badness 2913) in paragraph at lines 388--389
+Underfull \hbox (badness 2913) in paragraph at lines 409--410
 []\OT1/ptm/m/n/10.03749 Copying/reproducing sec-tions of an-other
  []
 
 
-Underfull \hbox (badness 2698) in paragraph at lines 390--391
+Underfull \hbox (badness 2698) in paragraph at lines 411--412
 \OT1/ptm/m/n/10.03749 for one-self and sub-mit-ting/pub-lish-ing it
  []
 
 
-Underfull \hbox (badness 3209) in paragraph at lines 488--491
+Underfull \hbox (badness 3209) in paragraph at lines 509--512
 [] \OT1/ptm/m/n/8.03 BiCS Bach-e-lor Semester Project Re-port Tem-plate.
  []
 
-[2
+[2]
+Underfull \hbox (badness 10000) in paragraph at lines 525--528
+[]\OT1/ptm/m/n/8.03 Lorenzo Schw-ert-ner Kauf-mann,
+ []
+
+
+Underfull \hbox (badness 1675) in paragraph at lines 525--528
+\OT1/ptm/m/n/8.03 Flavio Paulus Franzin, Roberto Mene-gais, Ce-sar Tadeu Pozzer
+.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 525--528
+\OT1/ptm/m/n/8.03 Ac-cu-rate Real-Time Physics Sim-u-la-tion for Large Worlds.
+ []
+
+[3
 
 ] (c:/texlive/2023/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2023/02/27 1.9 listings language file
 )
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
-nput line 512.
+nput line 547.
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <9.03374> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 518.
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 553.
 LaTeX Font Info:    Trying to load font information for TS1+phv on input line 5
-19.
+54.
 
 (c:/texlive/2023/texmf-dist/tex/latex/psnfss/ts1phv.fd
 File: ts1phv.fd 2020/03/25 scalable font definitions for TS1/phv.
@@ -503,18 +519,18 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[3
+[4
 
 
 ] (./main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: EFF9394A7511B368A55348C758C1EB31;2163.
+(rerunfilecheck)             Checksum: 990CF92430AC1BE371472E9D2E6B1799;2163.
  ) 
 Here is how much of TeX's memory you used:
- 12844 strings out of 476017
- 207360 string characters out of 5793766
+ 12851 strings out of 476017
+ 207527 string characters out of 5793766
  1907660 words of memory out of 5000000
- 33114 multiletter control sequences out of 15000+600000
+ 33117 multiletter control sequences out of 15000+600000
  557245 words of font info for 102 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  75i,8n,117p,1006b,1577s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -525,10 +541,10 @@ dist/fonts/type1/urw/helvetic/uhvr8a.pfb><c:/texlive/2023/texmf-dist/fonts/type
 mb8a.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb><c:/texl
 ive/2023/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2023/texmf-dis
 t/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (3 pages, 94256 bytes).
+Output written on main.pdf (4 pages, 101125 bytes).
 PDF statistics:
- 154 PDF objects out of 1000 (max. 8388607)
- 131 compressed objects within 2 object streams
- 55 named destinations out of 1000 (max. 500000)
+ 164 PDF objects out of 1000 (max. 8388607)
+ 140 compressed objects within 2 object streams
+ 59 named destinations out of 1000 (max. 500000)
  73 words of extra memory for PDF output out of 10000 (max. 10000000)
 
