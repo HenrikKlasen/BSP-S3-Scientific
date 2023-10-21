@@ -385,6 +385,32 @@ The technical deliverable will provide some key features:
 	\item \emph{Realistic lighting}: As the sun is more or less the only high intensity light source in the solar system, the simulation will use a point light source which will shine light from the suns position. 
 \end{itemize}
 
+As the goal is, to create a usable three-dimensional simulation with a Graphical user interface, which provides the most important information to the user, it will also be the task of this part, to find out, which metrics are necessary to properly control the satellite and which metrics are not a necessity. For example, the data, currently planned to be displayed are: 
+\begin{itemize}
+	\item Velocity of user controlled camera: To measure how fast the user is going in the solar system
+	\item Velocity of the satellite: To enable the user to calculate where the space probe will be when.
+	\item Distance of the satellite to the sun: To locate the position of the satellite
+	\item Coordinates of the satellite: Locate the satellite in a three-dimensional space
+	\item Coordinates of the camera: Locate the user controlled camera in three-dimensional space
+	\item Distance camera – Sun: To locate the camera on a relative basis in the solar system
+	\item Labels of the planets: Locate the planets relative to the camera
+	\item Planet orbit paths: Locate the orbits of the planets
+	\item Satellite trajectory: Display the points, the satellite already passed to estimate the further trajectory
+\end{itemize}
+•	
+
+As the user will be able to control the camera, they will be required to input the directions on the keyboard. The Keyboard buttons will be mapped as follows:
+•	W – Forwards movement relative to current rotation
+•	A – Left movement relative to current rotation
+•	S – Backwards movement relative to current rotation
+•	D – Right movement relative to current rotation
+•	X – Upwards movement relative to current rotation
+•	Y – Downwards movement relative to current rotation
+•	Arrow Key Left – Rotation Left (Z-Axis)
+•	Arrow Key Right – Rotation Right (Z-Axis)
+•	Arrow Key Up – Rotation Upwards (X-Axis)
+•	Arrow Key Down – Rotation Downwards (X-Axis)
+Also the  satellite will be controllable by the user. As of the point of time of writing this Project subject Description, it is not yet determined which keys will be mapped to which movement. 
 
 
 % An example of a floating figure using the graphicx package.
