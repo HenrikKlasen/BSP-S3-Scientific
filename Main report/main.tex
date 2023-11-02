@@ -356,6 +356,44 @@ The overall goal of this deliverable is to ensure, that the reader can understan
 \subsubsection{Technical deliverables}
 The technical part of this Bachelor Semester Project is about the implementation of the computational model developed in the scientific part. In fact, it is about the implementation of a virtual version of the solar system. \\
 While the scientific part is more about the "\emph{What do we want to simulate?}", this part is more about the "\emph{How do we implement what we want to simulate?}". The goal with this deliverable is, to get to know how to implement scientific computing models in a given environment. \\
+As for the technical deliverable, there is not as much literature such as official scientific papers or publications. The main source of information will be the scientific deliverable, e.g. for the equations describing the gravitational law. Next to that, the official Unity Documentation (linked in \cite{UnityDoc}) will be used for any further documentation regarding Unitys API. \\ 
+The technical deliverable will provide some key features:
+\begin{itemize}
+	\item \emph{Gravity}: According to the Newtonian gravitational law. Further details will be in the scientific part of the report.
+	\item \emph{Real scale}: The scale of the objects in the solar system will correspond to their actual scale in the real solar system. This will (hopefully) ensure a higher degree of realism and ease gravitational calculations, which are based on the distances.
+	\item \emph{Realistic lighting}: As the sun is more or less the only high intensity light source in the solar system, the simulation will use a point light source which will shine light from the suns position. 
+	\item \emph{User controllable Satellite}: This will help the user experience navigating a satellite in a three dimensional solar system with objects influencing the trajectory of the space probe.
+\end{itemize}
+
+The program will eventually include a Graphical User Interface, for which some parameters are needed. So far it is planned to include the parameters for two objects, mainly x-y-z position of the objects. It will be determined in this section, which data is going to be displayed in a light-weight interface, which provides the user enough information for controlling a satellite and camera (exact number of cameras to be determined in the report). For example, the data, currently planned to be displayed are: 
+\begin{itemize}
+	\item Velocity of user controlled camera: Measure how fast the user is going in the solar system
+	\item Velocity of the satellite: Enable the user to calculate where the space probe will be when.
+	\item Distance of the satellite to the sun: Locate the position of the satellite
+	\item Coordinates of the satellite: Locate the satellite in a three-dimensional space
+	\item Coordinates of the camera: Locate the user controlled camera in three-dimensional space
+	\item Distance camera – Sun: Locate the camera on a relative basis in the solar system
+	\item Labels of the planets: Locate the planets relative to the camera
+	\item Planet orbit paths: Locate the orbits of the planets
+	\item Satellite trajectory: Display the points, the satellite already passed to estimate the further trajectory
+\end{itemize}
+
+As the user will be able to control the camera, it will be required for this project, to map keys on the keyboard to certain movements, to enable the user to experience the virtual solar system. As of now, the keys are mapped as follows:
+\begin{itemize}
+	\item W – Forwards movement relative to current rotation
+	\item A – Left movement relative to current rotation
+	\item S – Backwards movement relative to current rotation
+	\item D – Right movement relative to current rotation
+	\item X – Upwards movement relative to current rotation
+	\item Y – Downwards movement relative to current rotation
+	\item Arrow Key Left – Rotation Left (Z-Axis)
+	\item Arrow Key Right – Rotation Right (Z-Axis)
+	\item Arrow Key Up – Rotation Upwards (X-Axis)
+	\item Arrow Key Down – Rotation Downwards (X-Axis)
+\end{itemize}
+
+Also the  satellite will be controllable by the user, to ensure, that the user gets a better understanding of the complexity of navigating in a three-dimensional space under the influence of gravitational pull to other celestial bodies. 
+
 
 
 % \subsection{Constraints}
