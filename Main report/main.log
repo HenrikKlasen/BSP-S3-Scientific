@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.4.17)  3 NOV 2023 09:49
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.4.17)  4 DEC 2023 15:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -397,9 +397,6 @@ File: l3backend-pdftex.def 2023-03-30 L3 backend support: PDF output (pdfTeX)
 )
 (./main.aux
 
-LaTeX Warning: Label `sec-production' multiply defined.
-
-
 LaTeX Warning: Label `bics-bsp-report-template' multiply defined.
 
 
@@ -458,26 +455,14 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6.32358> on input line 289.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <4.51686> on input line 289.
-LaTeX Font Info:    Calculating math sizes for size <12.045> on input line 312.
+LaTeX Font Info:    Calculating math sizes for size <12.045> on input line 316.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12.045> on input line 312.
+(Font)              <12.045> on input line 316.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8.43146> on input line 312.
+(Font)              <8.43146> on input line 316.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6.02249> on input line 312.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 312.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\pm' on input line 312.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 312.
+(Font)              <6.02249> on input line 316.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
@@ -503,187 +488,76 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 3/texmf-dist/fonts/enc/dvips/base/8r.enc}
 
 
-] [2]
+] [2] [3]
+Underfull \hbox (badness 1552) in paragraph at lines 453--454
+[]\OT1/ptm/m/n/10.03749 What for-mu-las de-scribe the be-haviour of our
+ []
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 401.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 401.
-
-LaTeX Font Info:    Calculating math sizes for size <11.04124> on input line 41
-2.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <11.04124> on input line 412.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7.72884> on input line 412.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5.52061> on input line 412.
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 412.
+[4]
+Underfull \hbox (badness 5036) in paragraph at lines 505--507
+\OT1/ptm/m/n/10.03749 Instead, it will il-lus-trate based on pseu-docode the
+ []
 
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\pm' on input line 412.
+Underfull \hbox (badness 10000) in paragraph at lines 505--507
 
+ []
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 412.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 414.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\pm' on input line 414.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 414.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 416.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\pm' on input line 416.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 416.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 418.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\pm' on input line 418.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 418.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 425.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\pm' on input line 425.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 425.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 427.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\pm' on input line 427.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 427.
-
-[3]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 429.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\pm' on input line 429.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 429.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 431.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\pm' on input line 431.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 431.
-
-
-Underfull \hbox (badness 2913) in paragraph at lines 454--455
+[5]
+Underfull \hbox (badness 2913) in paragraph at lines 540--541
 []\OT1/ptm/m/n/10.03749 Copying/reproducing sec-tions of an-other
  []
 
 
-Underfull \hbox (badness 2698) in paragraph at lines 456--457
+Underfull \hbox (badness 2698) in paragraph at lines 542--543
 \OT1/ptm/m/n/10.03749 for one-self and sub-mit-ting/pub-lish-ing it
  []
 
 
-Underfull \hbox (badness 3209) in paragraph at lines 581--584
+Underfull \hbox (badness 3209) in paragraph at lines 667--670
 [] \OT1/ptm/m/n/8.03 BiCS Bach-e-lor Semester Project Re-port Tem-plate.
  []
 
 
-Underfull \hbox (badness 3209) in paragraph at lines 597--600
+Underfull \hbox (badness 3209) in paragraph at lines 683--686
 [] \OT1/ptm/m/n/8.03 BiCS Bach-e-lor Semester Project Re-port Tem-plate.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 613--616
+Underfull \hbox (badness 10000) in paragraph at lines 699--702
 []\OT1/ptm/m/n/8.03 Lorenzo Schw-ert-ner Kauf-mann,
  []
 
 
-Underfull \hbox (badness 1675) in paragraph at lines 613--616
+Underfull \hbox (badness 1675) in paragraph at lines 699--702
 \OT1/ptm/m/n/8.03 Flavio Paulus Franzin, Roberto Mene-gais, Ce-sar Tadeu Pozzer
 .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 613--616
+Underfull \hbox (badness 10000) in paragraph at lines 699--702
 \OT1/ptm/m/n/8.03 Ac-cu-rate Real-Time Physics Sim-u-la-tion for Large Worlds.
  []
 
-[4
+[6
 pdfTeX warning (ext4): destination with the same identifier (name{cite.bics-bsp
 -report-template}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.630 \newpage
+l.722 \newpage
               
 pdfTeX warning (ext4): destination with the same identifier (name{cite.bics-bsp
 -reference-document}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.630 \newpage
+l.722 \newpage
               
 pdfTeX warning (ext4): destination with the same identifier (name{cite.armstron
 g2017guidelinesforscience}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.630 \newpage
-              ] (c:/texlive/2023/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2023/02/27 1.9 listings language file
-)
-Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
-nput line 636.
-LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <9.03374> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 642.
-LaTeX Font Info:    Trying to load font information for TS1+phv on input line 6
-43.
-
-(c:/texlive/2023/texmf-dist/tex/latex/psnfss/ts1phv.fd
-File: ts1phv.fd 2020/03/25 scalable font definitions for TS1/phv.
-)
+l.722 \newpage
+              ]
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -695,37 +569,38 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[5
+[7
 
 ] (./main.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: C4945B4BA142533A04F6FC90CBFDAD17;4958.
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: 4ED02532CA889AA6ABE25EB4DEA81CBC;9169
+(rerunfilecheck)             After:  45A07ABAF0251A27171EB9495969967D;9174.
  ) 
 Here is how much of TeX's memory you used:
- 12932 strings out of 476017
- 208791 string characters out of 5793766
- 1907660 words of memory out of 5000000
- 33173 multiletter control sequences out of 15000+600000
- 559986 words of font info for 111 fonts, out of 8000000 for 9000
+ 12724 strings out of 476017
+ 206515 string characters out of 5793766
+ 1872660 words of memory out of 5000000
+ 32976 multiletter control sequences out of 15000+600000
+ 553006 words of font info for 101 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 75i,8n,117p,1006b,1577s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/tex
-live/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2023/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2023/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2023/texmf-dist/fonts/ty
-pe1/urw/helvetic/uhvb8a.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/helveti
-c/uhvr8a.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb><
-c:/texlive/2023/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2023/te
-xmf-dist/fonts/type1/urw/times/utmbi8a.pfb><c:/texlive/2023/texmf-dist/fonts/ty
-pe1/urw/times/utmr8a.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/times/utmr
-i8a.pfb>
-Output written on main.pdf (5 pages, 137010 bytes).
+ 75i,8n,117p,1006b,1078s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/tex
+live/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2023/
+texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2023/texmf-dist/fonts/t
+ype1/urw/times/utmbi8a.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/times/ut
+mr8a.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (7 pages, 106297 bytes).
 PDF statistics:
- 267 PDF objects out of 1000 (max. 8388607)
- 235 compressed objects within 3 object streams
- 79 named destinations out of 1000 (max. 500000)
- 209 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 350 PDF objects out of 1000 (max. 8388607)
+ 325 compressed objects within 4 object streams
+ 82 named destinations out of 1000 (max. 500000)
+ 409 words of extra memory for PDF output out of 10000 (max. 10000000)
 
