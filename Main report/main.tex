@@ -481,6 +481,7 @@ Let us assume, we want to model the computational model for a three-dimensional 
 These orbits are determined by the attraction between all bodies. As the attraction between bodies is determined by mass $m$ and distance $r$, each planet has a mass, a size and a position. It is also observable, that the orbits do indeed change slightly over time, due to effects, such as orbital decay or certain constellations pulling the body more into a certain direction, thus impacting the orbit.\\
 \emph{Satellite}: The satellite has a mass, a position and a velocity or acceleration. With these values, it is able to revolve around an other celestial object. All other celestial bodies are \emph{theoretically} also attracted to it, but since the mass of the satellite object is negligible, it can be left out without loss of generality.
 \subsubsection{Problem definition}
+\label{Problem-Def}
 The model we want to develop will have to simulate the behaviour of the solar system. The main focus will have to be the satellite objects trajectory, such that it will suffice to simplify the behaviours of the remaining bodies in the solar system, such as the sun and planets. For the celestial bodies, simplifications which do not interfere with the accuracy have to be found. Furthermore it will be necessary to minimize heavy weight calculations to save on compute power to be able to run the simulation on a lower end machine. \\
 Since it is easier to see odd behaviour, the simulation should also be displaying all calculated values in a three dimensional space, i.e. the movement should be visible.
 \subsection{Assessment (0/150 words)}
@@ -489,8 +490,7 @@ Provide any objective elements to assess that your deliverables do or do not sat
 \section{Mathematical approach and simplifications}
 \label{sec-simplify}
 \subsection{Requirements (64/150 words)}
-This section will contain simplifications to the formulas found in \ref{sec-modeling}.\\
-It will also be required to take certain observations into account for simplifying the formulas. It will be required to be clear and well explained why these simplifications can and have to be made. This will include a critical computer scientific standpoint as well as a critical standpoint from the point of physics.
+This section will find and simplify formulas for the model described in \ref{Problem-Def}. 
 \subsection{Design (95/300 words)}
 This section will take a look at the scale of the numbers used in the model developed in \ref{sec-modeling} and point out floating point and precision issues. Furthermore it will simplify some equations for ease of computation and also simplify some behaviour into constants.\\
 Specifically, this section will use Chapter 1 of \cite{ComputationalModelsIntroduction}. Section 1.11 of this chapter is especially important, as it provides the necessary information regarding floating point precision, errors and accuracy. \\
