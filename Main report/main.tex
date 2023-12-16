@@ -475,6 +475,7 @@ Additionally, next to the chapters used in the preceding section, this section w
 \subsection{Production (400/400 words)}
 With the plan of how to build a computational model, we can now start constructing the basic framework of the model for this project.
 \subsubsection{Observable behaviour}
+\ref{observations}
 Let us assume, we want to model the computational model for a three-dimensional space. Our solar system has 9 major objects, namely the sun and all planets. These objects have different behaviours each:\\
 \emph{Sun}: The sun is the centre of our model, as it also is the centre of the solar system. This object, although in reality not static, stays in more or less the same place in the closed system (if we assume, that the solar system is a closed system). It is also very important to note, that the sun has a mass and a size.\\
 \emph{Planets}: The planets revolve around a common centre of mass. Each orbit has an inclination $\alpha$, a major semi-axis $a$, a minor semi-axis $b$ and an eccentricity $\epsilon$. 
@@ -490,7 +491,8 @@ Provide any objective elements to assess that your deliverables do or do not sat
 \section{Mathematical approach and simplifications}
 \label{sec-simplify}
 \subsection{Requirements (64/150 words)}
-This section will find and simplify formulas for the model described in \ref{Problem-Def}. 
+This section will find formulas for the model described in \ref{Problem-Def}. It is required to explain every formula and to reason about the specific model. This will finally lead to the model completion and finalize design of the model to be implemented in \ref{sec-solar-system} and later sections. Furthermore will this section give details like scale of the model and assumptions to simplify the computations to ensure ease of computation. \\
+It will be required to give the specific formulas and from these, to elaborate, why this formula is usable or not useful for this model. Then from results in \ref
 \subsection{Design (95/300 words)}
 This section will take a look at the scale of the numbers used in the model developed in \ref{sec-modeling} and point out floating point and precision issues. Furthermore it will simplify some equations for ease of computation and also simplify some behaviour into constants.\\
 Specifically, this section will use Chapter 1 of \cite{ComputationalModelsIntroduction}. Section 1.11 of this chapter is especially important, as it provides the necessary information regarding floating point precision, errors and accuracy. \\
@@ -501,7 +503,7 @@ Provide descriptions of the deliverables concrete production. It must present pa
 Provide any objective elements to assess that your deliverables do or do not satisfy the requirements described above. 
 
 \section{The solar system}
-\label{sec-solar system}
+\label{sec-solar-system}
 \subsection{Requirements (105/150 words)}
 In this section it is required to find explanations and pseudocode for the implementation of the solar system. This section will focus on the implementation of the "stable orbit script" (SOS) which is mainly responsible for the elliptical orbits in this system. It will also be required to look at the results from \ref{sec-modeling} and \ref{sec-simplify} as they provide the \emph{theoretical} aspects of this part. With these as the main points covered, it will also be necessary to take a look at the game objects and the addition of a script to such an object. This will include a detailed glimpse at Unitys scripting API. 
 \subsection{Design (0/300 words)}
