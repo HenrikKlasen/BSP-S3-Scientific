@@ -511,7 +511,7 @@ To build a mathematical model of the environment we want to simulate, we need to
 Therefore let the celestial bodies $O_{i}$ be numbered from 1 to 10 and their masses be $m_{1}$ ... $m_{10}$ with distance $r_{1}$ ... $r_{10}$. Then the forces influencing the satellite would be:
 $$ \vec{F} = \sum_{i=1}^{9}{\gamma \cdot \frac{m_{i} \cdot m_{sat}}{\vec{r}^{2}}} $$
 This formula can be simplified, as $\gamma$ and $m_{sun}$ are all factors of every portion of the sum, so they can be seen as a constant factor. This means, that the simplified formula would be:
-$$ \vec{F} = \gamma \cdot m_{sat} \cdot \sum_{i=1}^{9}{\frac{m_{i}}{\vec{r}^{2}}} $$
+$$ \vec{F} = \gamma \cdot m_{sat} \cdot \sum_{i=1}^{9}{\frac{m_{i}}{\vec{r_{i}}^{2}}} $$
 Since the goal is to find a formula for $\vec{v}$, we need to transform $\vec{F}$ to $\vec{v}$. We know that $\vec{v} = \frac{\vec{F}}{m_{sat}}$, which leads to:
 $$ \vec{v} = \frac{\vec{F}}{m_{sat}} = \frac{\gamma \cdot m_{sat} \cdot \sum_{i=1}^{9}{\frac{m_{i}}{\vec{r_{i}}^{2}}}}{m_{sat}} = \gamma \cdot \sum_{i=1}^{9}{\frac{m_{i}}{\vec{r_{i}}^{2}}}
 \subsection{Assessment (0/150 words)}
