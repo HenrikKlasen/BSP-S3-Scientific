@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.4.17)  14 DEC 2023 14:53
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.4.17)  17 DEC 2023 13:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -493,52 +493,71 @@ Underfull \hbox (badness 1552) in paragraph at lines 453--454
 []\OT1/ptm/m/n/10.03749 What for-mu-las de-scribe the be-haviour of our
  []
 
-[4]
-Underfull \hbox (badness 5036) in paragraph at lines 514--516
+[4] [5]
+Underfull \hbox (badness 5036) in paragraph at lines 539--541
 \OT1/ptm/m/n/10.03749 Instead, it will il-lus-trate based on pseu-docode the
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 514--516
+Underfull \hbox (badness 10000) in paragraph at lines 539--541
 
  []
 
-[5]
-Underfull \hbox (badness 2913) in paragraph at lines 549--550
+[6]
+Underfull \hbox (badness 2913) in paragraph at lines 574--575
 []\OT1/ptm/m/n/10.03749 Copying/reproducing sec-tions of an-other
  []
 
 
-Underfull \hbox (badness 2698) in paragraph at lines 551--552
+Underfull \hbox (badness 2698) in paragraph at lines 576--577
 \OT1/ptm/m/n/10.03749 for one-self and sub-mit-ting/pub-lish-ing it
  []
 
 
-Underfull \hbox (badness 3209) in paragraph at lines 676--679
-[] \OT1/ptm/m/n/8.03 BiCS Bach-e-lor Semester Project Re-port Tem-plate.
- []
-
-[6]
-Underfull \hbox (badness 3209) in paragraph at lines 692--695
+Underfull \hbox (badness 3209) in paragraph at lines 701--704
 [] \OT1/ptm/m/n/8.03 BiCS Bach-e-lor Semester Project Re-port Tem-plate.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 708--711
+Underfull \hbox (badness 3209) in paragraph at lines 717--720
+[] \OT1/ptm/m/n/8.03 BiCS Bach-e-lor Semester Project Re-port Tem-plate.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 733--736
 []\OT1/ptm/m/n/8.03 Lorenzo Schw-ert-ner Kauf-mann,
  []
 
 
-Underfull \hbox (badness 1675) in paragraph at lines 708--711
+Underfull \hbox (badness 1675) in paragraph at lines 733--736
 \OT1/ptm/m/n/8.03 Flavio Paulus Franzin, Roberto Mene-gais, Ce-sar Tadeu Pozzer
 .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 708--711
+Underfull \hbox (badness 10000) in paragraph at lines 733--736
 \OT1/ptm/m/n/8.03 Ac-cu-rate Real-Time Physics Sim-u-la-tion for Large Worlds.
  []
 
+[7
+pdfTeX warning (ext4): destination with the same identifier (name{cite.bics-bsp
+-report-template}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.756 \newpage
+              
+pdfTeX warning (ext4): destination with the same identifier (name{cite.bics-bsp
+-reference-document}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.756 \newpage
+              
+pdfTeX warning (ext4): destination with the same identifier (name{cite.armstron
+g2017guidelinesforscience}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.756 \newpage
+              ]
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -550,25 +569,9 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[7
-pdfTeX warning (ext4): destination with the same identifier (name{cite.bics-bsp
--report-template}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.742 \end{document}
-                    
-pdfTeX warning (ext4): destination with the same identifier (name{cite.bics-bsp
--reference-document}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.742 \end{document}
-                    
-pdfTeX warning (ext4): destination with the same identifier (name{cite.armstron
-g2017guidelinesforscience}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.742 \end{document}
-                    ] (./main.aux)
+[8
+
+] (./main.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
@@ -578,27 +581,33 @@ Package rerunfilecheck Warning: File `main.out' has changed.
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: 8DB4D6D8969B0181D6D2361B6D8F0BC3;9432
-(rerunfilecheck)             After:  1BC38624000E541F67E6CCF04E8DE158;9432.
+(rerunfilecheck)             Before: 954BF13FEC73435A5EBB187E601400F6;9741
+(rerunfilecheck)             After:  DF7C44EC0DBC0BE2DD8A281211DD2643;9751.
  ) 
 Here is how much of TeX's memory you used:
- 12728 strings out of 476017
- 206595 string characters out of 5793766
+ 12736 strings out of 476017
+ 206732 string characters out of 5793766
  1872660 words of memory out of 5000000
- 32978 multiletter control sequences out of 15000+600000
+ 32982 multiletter control sequences out of 15000+600000
  553006 words of font info for 101 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  75i,8n,117p,1006b,1078s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/tex
-live/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2023
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2023/texmf-dis
-t/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/
-times/utmbi8a.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-<c:/texlive/2023/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (7 pages, 117999 bytes).
+<c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/tex
+live/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2023
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb><c:/texlive/2023/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2023/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmr5.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmr7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pf
+b><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texl
+ive/2023/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2023/texmf-dis
+t/fonts/type1/urw/times/utmbi8a.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw
+/times/utmr8a.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/times/utmri8a.pfb
+>
+Output written on main.pdf (8 pages, 175651 bytes).
 PDF statistics:
- 363 PDF objects out of 1000 (max. 8388607)
- 336 compressed objects within 4 object streams
- 84 named destinations out of 1000 (max. 500000)
- 425 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 415 PDF objects out of 1000 (max. 8388607)
+ 375 compressed objects within 4 object streams
+ 88 named destinations out of 1000 (max. 500000)
+ 449 words of extra memory for PDF output out of 10000 (max. 10000000)
 
