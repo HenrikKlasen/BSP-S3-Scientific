@@ -508,7 +508,7 @@ To build a mathematical model of the environment we want to simulate, we need to
 \emph{Practical aspects: } As we already simplified the sun as a static object, we can further simplify this system by assuming, that the planetary orbits do not change over time. The variations in the orbits are related to the variations of the barycentre of the system. As we already cancelled these variations out in the simplification of the sun, we can also do this here.
 \subsubsection{Satellite}\hfill\\
 \emph{Theoretical aspect: } As mentioned in \ref{observations}, the satellite has a mass $m_{sat}$. It is under the gravitational pull of all celestial bodies, such as sun and planets. This means, that it is a necessity to calculate the distance $r_{i}$ to all objects $O_{i}$.
-Therefore let the celestial bodies be numbered from 1 to 10 and their masses be $m_{1}$ ... $m_{10}$ with distance $r_{1}$ ... $r_{10}$. Then the forces influencing the satellite would be:
+Therefore let the celestial bodies $O_{i}$ be numbered from 1 to 10 and their masses be $m_{1}$ ... $m_{10}$ with distance $r_{1}$ ... $r_{10}$. Then the forces influencing the satellite would be:
 $$ \vec{F} = \sum_{i=1}^{9}{\gamma \cdot \frac{m_{i} \cdot m_{sun}}{\vec{r}^{2}}} $$
 This formula can be simplified, as $\gamma$ and $m_{sun}$ are all factors of every portion of the sum, so they can be seen as a constant factor. This means, that the simplified formula would be:
 $$ \vec{F} = \gamma \cdot m_{sun} \cdot \sum_{i=1}^{9}{\frac{m_{i}}{\vec{r}^{2}}} $$
