@@ -510,8 +510,8 @@ To build a mathematical model of the environment we want to simulate, we need to
 \emph{Practical aspects: } As we already simplified the sun as a static object, we can further simplify this system by assuming, that the planetary orbits do not change over time. The variations in the orbits are related to the variations of the barycentre of the system. As we already cancelled these variations out in the simplification of the sun, we can also do this here. \\
 Leaving out these small variations leads to a formula for orbits describing elliptical shapes with a certain angle $\alpha$.
 $\begin{pmatrix}
-	(focus.pos_{x} + (semiaxis_{mj} \cdot cos(0.005 \cdot angular\_velocity)) \\ 0\\
-	(focus.pos_{y} + (semiaxis_{min} \cdot sin(0.005 \cdot angular\_velocity))
+	(focus.pos_{x} + (semiaxis_{mj} \cdot cos(0.005 \cdot v)) \\ 0\\
+	(focus.pos_{y} + (semiaxis_{min} \cdot sin(0.005 \cdot v))
 \end{pmatrix}}$
 
 \subsubsection{Satellite}\hfill\\
