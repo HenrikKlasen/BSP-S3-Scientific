@@ -501,9 +501,11 @@ To find issues in precision, the sections \ref{sec-computational-model} and \ref
 To build a mathematical model of the environment we want to simulate, we need to look at the physics behind the environment. This involves finding formulas for the observed behaviour. To structure this in a similar way to the Observable behaviour section (\ref{observations}), we will take a look at the model object for object.
 \subsubsection{Sun}
 \hfill\newline
+\label{Sun}
 \emph{Theoretical aspects: }The centre of mass, or also known as barycentre, of the solar system is located close to the sun. This means that the sun also revolves around this barycentre, which changes over time. So in theory, the sun is not a fixed object in the solar system, which means, we would need to calculate the position every single moment.\\
 \emph{Practical aspects: } Since vectorial computations are rather resource heavy and are quite complex to compute, we would like to simplify the model here. Let us therefore assume, that the position of the sun is fixed and it represents the centre of mass of the solar system. 
 \subsubsection{Planets}\hfill\\
+\label{Planets}
 \emph{Theoretical aspects: } We know from \ref{observations}, that the planets revolve around the sun. Their orbits are approximately elliptic, though not fully elliptic, since the focus of the ellipsis is the barycentre of the system, which changes over time. This leads to small variations in the orbits. \\
 \emph{Practical aspects: } As we already simplified the sun as a static object, we can further simplify this system by assuming, that the planetary orbits do not change over time. The variations in the orbits are related to the variations of the barycentre of the system. As we already cancelled these variations out in the simplification of the sun, we can also do this here.
 \subsubsection{Satellite}\hfill\\
@@ -530,6 +532,7 @@ Provide any objective elements to assess that your deliverables do or do not sat
 \subsection{Requirements (105/150 words)}
 In this section it is required to find explanations and pseudocode for the implementation of the solar system. This section will focus on the implementation of the "stable orbit script" (SOS) which is mainly responsible for the elliptical orbits in this system. It will also be required to look at the results from \ref{sec-modeling} and \ref{sec-simplify} as they provide the \emph{theoretical} aspects of this part. With these as the main points covered, it will also be necessary to take a look at the game objects and the addition of a script to such an object. This will include a detailed glimpse at Unitys scripting API. 
 \subsection{Design (0/300 words)}
+This section will mainly take results from \ref{Planets}
 \subsection{Production (0/400 words)}
 \subsection{Assessment (0/150 words)}
 
