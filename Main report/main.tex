@@ -562,7 +562,7 @@ $$\begin{pmatrix}
 	sin(\alpha) & cos(\alpha) & 0 \\
 	0 & 0 & 1
 \end{pmatrix} $$
-Given the fact, that calculating with matrices in programming languages such as C\#, is difficult, we will use the predefined data structure \textbf{Vector3D} from Unity. This data structure is of the type 3-tuple of type float, in the form (X-Coordinates | Y-Coordinates | Z-Coordinates). For manipulating the position of the planet object (a sphere), it is necessary to use the \textbf{position.translate(Vector3D)} method, which takes a Vector3D as input and adds it to the objects current position. This leads to a the position to change coordinates, which ultimately means, that the object changes coordinates (the definition of movement). \\
+Given the fact, that calculating with matrices in programming languages such as C\#, is difficult, we will use the predefined data structure \textbf{Vector3D} from Unity. This data structure is of the type 3-tuple of type float, in the form (X-Coordinates | Y-Coordinates | Z-Coordinates). For manipulating the position of the planet object (a sphere), it is necessary to use the \textbf{transform.position(Vector3D)} method, which takes a Vector3D as input and adds it to the objects current position. This leads to a the position to change coordinates, which ultimately means, that the object changes coordinates (the definition of movement). \\
 \textbf{The algorithm} \\
 As already mentioned, Unity provides methods and classes for three dimensional space. For us, the following classes and methods are important:
 \begin{itemize}
@@ -570,7 +570,7 @@ As already mentioned, Unity provides methods and classes for three dimensional s
 	\begin{itemize}
 		\item Euler: Takes an angle as input and outputs the corresponding rotation matrix for this angle. The angle is measured in degree
 	\end{itemize}
-	
+	\item Vector3(D): The Vector3 or Vector3D class is the implementation of three-dimensional vectors in the Unity game engine. 
 \end{itemize}
 
 \subsection{Assessment (0/150 words)}
