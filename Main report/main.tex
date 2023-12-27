@@ -562,7 +562,6 @@ $$\begin{pmatrix}
 	sin(\alpha) & cos(\alpha) & 0 \\
 	0 & 0 & 1
 \end{pmatrix} $$
-
 Given the fact, that calculating with matrices in programming languages such as C\#, is difficult, we will use the predefined data structure \textbf{Vector3D} from Unity. This data structure is of the type 3-tuple of type float, in the form (X-Coordinates | Y-Coordinates | Z-Coordinates). For manipulating the position of the planet object (a sphere), it is necessary to use the \textbf{position.translate(Vector3D)} method, which takes a Vector3D as input and adds it to the objects current position. This leads to a the position to change coordinates, which ultimately means, that the object changes coordinates (the definition of movement).
 
 
