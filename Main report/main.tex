@@ -554,16 +554,16 @@ As we also defined, that the sun has a mass, it gets the property of a rigid bod
 \subsubsection{Planet - Algorithmic approach and implementation} \hfill\\
 Similar to the sun, a planet has a mass and a size. This implies, that the planet object also has the property of a rigid body object. 
 As we know from \ref{Planets}, we want to simplify the orbits of the planets to an ellipsis with the sun in one of the foci. The formula for an ellipsis in three-dimensional space is also given in \ref{Planets} as:
-$\begin{pmatrix}
+$$\begin{pmatrix}
 	f_{x} + (a_{mj} \cdot cos(0.005 \cdot v) \\ 0\\
 	f_{z} + (a_{min} \cdot sin(0.005 \cdot v)
 \end{pmatrix} \cdot \begin{pmatrix}
 	cos(\alpha) & -sin(\alpha) & 0 \\
 	sin(\alpha) & cos(\alpha) & 0 \\
 	0 & 0 & 1
-\end{pmatrix} $
+\end{pmatrix} $$
 
-Given the fact, that calculating with matrices in programming languages such as C\#, is difficult, we will use the predefined data structure \textbf{Vector3D} from Unity. This data structure is of the type 3-tuple of type float, in the form (X-Coordinates | Y-Coordinates | Z-Coordinates). For manipulating the position of the planet object (a sphere), it is necessary to use the \textbf{position.translate(Vector3D)} method, which takes a Vector3D as input and adds it to the objects current position. This leads to a the position to change coordinates, which ultimately means, that the object changes coordinates (the definition of movement)
+Given the fact, that calculating with matrices in programming languages such as C\#, is difficult, we will use the predefined data structure \textbf{Vector3D} from Unity. This data structure is of the type 3-tuple of type float, in the form (X-Coordinates | Y-Coordinates | Z-Coordinates). For manipulating the position of the planet object (a sphere), it is necessary to use the \textbf{position.translate(Vector3D)} method, which takes a Vector3D as input and adds it to the objects current position. This leads to a the position to change coordinates, which ultimately means, that the object changes coordinates (the definition of movement).
 
 
 \subsection{Assessment (0/150 words)}
