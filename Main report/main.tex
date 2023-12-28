@@ -583,7 +583,7 @@ Translated to pseudocode, this would imply the following script.
 		\Function{Frame update}{}
 			\State \Comment{Calculate how much the object moved}
 			\State $\alpha \leftarrow |\vec{v}|$
-			\State x = 
+			\State $x \leftarrow focus.x + (mj\_semiaxis \cdot \sin(alpha \cdot 0.005)$
 			\State Calculate Z-Position of the object after frame update
 			\State Initialize a target Vector3D object with the values: (calculated x-position, 0, calculated z-position)
 			\State Using $\alpha$, calculate the Quaternion matrix for rotation
