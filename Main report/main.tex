@@ -585,7 +585,7 @@ Translated to pseudocode, this would imply the following script.
 			
 			\State $x \leftarrow focus.x + (mj\_semiaxis \cdot \cos(alpha \cdot 0.005)$
 			\State $y \leftarrow focus.y + (min\_semiaxis \cdot \sin(alpha \cdot 0.005)$
-			\State $\vec{p} \leftarrow (x, 0, y)$
+			\State $\vec{p} \leftarrow (x, 0, y)$ \Comment{Let p be the objects position}
 			\State $Q \leftarrow \alpha$ \Comment{Let Q be the rotation matrix}
 			\State $position \leftarrow \vec{p} \cdot Q$
 		\EndFunction
