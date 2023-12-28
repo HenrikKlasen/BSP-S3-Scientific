@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.4.17)  18 DEC 2023 13:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.4.17)  28 DEC 2023 11:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -245,14 +245,48 @@ File: listings.cfg 2023/02/27 1.9 listings configuration
 ))
 Package: listings 2023/02/27 1.9 (Carsten Heinz)
 
-(c:/texlive/2023/texmf-dist/tex/latex/cite/cite.sty
+(c:/texlive/2023/texmf-dist/tex/latex/algorithms/algorithm.sty
+Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating enviro
+nment
+
+(c:/texlive/2023/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count303
+\float@exts=\toks23
+\float@box=\box55
+\@float@everytoks=\toks24
+\@floatcapt=\box56
+)
+\@float@every@algorithm=\toks25
+\c@algorithm=\count304
+)
+(c:/texlive/2023/texmf-dist/tex/latex/algorithmicx/algpseudocode.sty
+Package: algpseudocode 
+
+(c:/texlive/2023/texmf-dist/tex/latex/algorithmicx/algorithmicx.sty
+Package: algorithmicx 2005/04/27 v1.2 Algorithmicx
+
+Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
+\c@ALG@line=\count305
+\c@ALG@rem=\count306
+\c@ALG@nested=\count307
+\ALG@tlm=\skip51
+\ALG@thistlm=\skip52
+\c@ALG@Lnr=\count308
+\c@ALG@blocknr=\count309
+\c@ALG@storecount=\count310
+\c@ALG@tmpcounter=\count311
+\ALG@tmplength=\skip53
+)
+Document Style - pseudocode environments for use with the `algorithmicx' style
+) (c:/texlive/2023/texmf-dist/tex/latex/cite/cite.sty
 LaTeX Info: Redefining \cite on input line 302.
 LaTeX Info: Redefining \nocite on input line 332.
 Package: cite 2015/02/27  v 5.5
 )
 (c:/texlive/2023/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2022/04/08 v2.17n AMS math features
-\@mathmargin=\skip51
+\@mathmargin=\skip54
 
 For additional information on amsmath, use the `?' option.
 (c:/texlive/2023/texmf-dist/tex/latex/amsmath/amstext.sty
@@ -265,19 +299,19 @@ Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 (c:/texlive/2023/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
-\inf@bad=\count303
+\inf@bad=\count312
 LaTeX Info: Redefining \frac on input line 234.
-\uproot@=\count304
-\leftroot@=\count305
+\uproot@=\count313
+\leftroot@=\count314
 LaTeX Info: Redefining \overline on input line 399.
 LaTeX Info: Redefining \colon on input line 410.
-\classnum@=\count306
-\DOTSCASE@=\count307
+\classnum@=\count315
+\DOTSCASE@=\count316
 LaTeX Info: Redefining \ldots on input line 496.
 LaTeX Info: Redefining \dots on input line 499.
 LaTeX Info: Redefining \cdots on input line 620.
-\Mathstrutbox@=\box55
-\strutbox@=\box56
+\Mathstrutbox@=\box57
+\strutbox@=\box58
 LaTeX Info: Redefining \big on input line 722.
 LaTeX Info: Redefining \Big on input line 723.
 LaTeX Info: Redefining \bigg on input line 724.
@@ -285,31 +319,31 @@ LaTeX Info: Redefining \Bigg on input line 725.
 \big@size=\dimen178
 LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
-\macc@depth=\count308
+\macc@depth=\count317
 LaTeX Info: Redefining \bmod on input line 905.
 LaTeX Info: Redefining \pmod on input line 910.
 LaTeX Info: Redefining \smash on input line 940.
 LaTeX Info: Redefining \relbar on input line 970.
 LaTeX Info: Redefining \Relbar on input line 971.
-\c@MaxMatrixCols=\count309
+\c@MaxMatrixCols=\count318
 \dotsspace@=\muskip16
-\c@parentequation=\count310
-\dspbrk@lvl=\count311
-\tag@help=\toks23
-\row@=\count312
-\column@=\count313
-\maxfields@=\count314
-\andhelp@=\toks24
+\c@parentequation=\count319
+\dspbrk@lvl=\count320
+\tag@help=\toks26
+\row@=\count321
+\column@=\count322
+\maxfields@=\count323
+\andhelp@=\toks27
 \eqnshift@=\dimen179
 \alignsep@=\dimen180
 \tagshift@=\dimen181
 \tagwidth@=\dimen182
 \totwidth@=\dimen183
 \lineht@=\dimen184
-\@envbody=\toks25
-\multlinegap=\skip52
-\multlinetaggap=\skip53
-\mathdisplay@stack=\toks26
+\@envbody=\toks28
+\multlinegap=\skip55
+\multlinetaggap=\skip56
+\mathdisplay@stack=\toks29
 LaTeX Info: Redefining \[ on input line 2953.
 LaTeX Info: Redefining \] on input line 2954.
 )
@@ -363,11 +397,11 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 (c:/texlive/2023/texmf-dist/tex/latex/kvoptions/kvoptions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 ))
-\c@section@level=\count315
+\c@section@level=\count324
 )
 \@linkdim=\dimen185
-\Hy@linkcounter=\count316
-\Hy@pagecounter=\count317
+\Hy@linkcounter=\count325
+\Hy@pagecounter=\count326
 
 (c:/texlive/2023/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2023-02-07 v7.00v Hyperref: PDFDocEncoding definition (HO)
@@ -380,7 +414,7 @@ Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 (c:/texlive/2023/texmf-dist/tex/generic/etexcmds/etexcmds.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
-\Hy@SavedSpaceFactor=\count318
+\Hy@SavedSpaceFactor=\count327
 
 (c:/texlive/2023/texmf-dist/tex/latex/hyperref/puenc.def
 File: puenc.def 2023-02-07 v7.00v Hyperref: PDF Unicode definition (HO)
@@ -394,7 +428,7 @@ Package hyperref Info: Plain pages OFF on input line 4192.
 Package hyperref Info: Backreferencing OFF on input line 4197.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4425.
-\c@Hy@tempcnt=\count319
+\c@Hy@tempcnt=\count328
 
 (c:/texlive/2023/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip17
@@ -410,7 +444,7 @@ Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count320
+\Fld@menulength=\count329
 \Field@Width=\dimen187
 \Fld@charsize=\dimen188
 Package hyperref Info: Hyper figures OFF on input line 6042.
@@ -425,9 +459,9 @@ Package hyperref Info: PDF/A mode OFF on input line 6072.
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
-\Hy@abspage=\count321
-\c@Item=\count322
-\c@Hfootnote=\count323
+\Hy@abspage=\count330
+\c@Item=\count331
+\c@Hfootnote=\count332
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
 
@@ -439,8 +473,8 @@ Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
 kage
 with kernel methods
 )
-\Fld@listcount=\count324
-\c@bookmark@seq@number=\count325
+\Fld@listcount=\count333
+\c@bookmark@seq@number=\count334
 
 (c:/texlive/2023/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
 Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
@@ -451,12 +485,12 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 85.
 )
-\Hy@SectionHShift=\skip54
+\Hy@SectionHShift=\skip57
 )
 (c:/texlive/2023/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2023-03-30 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count326
-\l__pdf_internal_box=\box57
+\l__color_backend_stack_int=\count335
+\l__pdf_internal_box=\box59
 )
 (./main.aux
 
@@ -471,119 +505,142 @@ LaTeX Warning: Label `armstrong2017guidelinesforscience' multiply defined.
 )
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 227.
-LaTeX Font Info:    ... okay on input line 227.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 227.
-LaTeX Font Info:    ... okay on input line 227.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 227.
-LaTeX Font Info:    ... okay on input line 227.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 227.
-LaTeX Font Info:    ... okay on input line 227.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 227.
-LaTeX Font Info:    ... okay on input line 227.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 227.
-LaTeX Font Info:    ... okay on input line 227.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 227.
-LaTeX Font Info:    ... okay on input line 227.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 227.
-LaTeX Font Info:    ... okay on input line 227.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 227.
-LaTeX Font Info:    ... okay on input line 227.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 228.
+LaTeX Font Info:    ... okay on input line 228.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 228.
+LaTeX Font Info:    ... okay on input line 228.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 228.
+LaTeX Font Info:    ... okay on input line 228.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 228.
+LaTeX Font Info:    ... okay on input line 228.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 228.
+LaTeX Font Info:    ... okay on input line 228.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 228.
+LaTeX Font Info:    ... okay on input line 228.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 228.
+LaTeX Font Info:    ... okay on input line 228.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 228.
+LaTeX Font Info:    ... okay on input line 228.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 228.
+LaTeX Font Info:    ... okay on input line 228.
 
 -- Lines per column: 58 (exact).
 (c:/texlive/2023/texmf-dist/tex/latex/fmtcount/fc-english.def
 File: fc-english.def 2016/01/12
 )
 Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
-\c@lstlisting=\count327
-Package hyperref Info: Link coloring OFF on input line 227.
+\c@lstlisting=\count336
+Package hyperref Info: Link coloring OFF on input line 228.
  (./main.out)
 (./main.out)
 \@outlinefile=\write3
 \openout3 = `main.out'.
 
 LaTeX Font Info:    Trying to load font information for OT1+phv on input line 2
-89.
+90.
  (c:/texlive/2023/texmf-dist/tex/latex/psnfss/ot1phv.fd
 File: ot1phv.fd 2020/03/25 scalable font definitions for OT1/phv.
 )
-LaTeX Font Info:    Calculating math sizes for size <9.03374> on input line 289
+LaTeX Font Info:    Calculating math sizes for size <9.03374> on input line 290
 .
-LaTeX Font Info:    Calculating math sizes for size <12.045> on input line 316.
+LaTeX Font Info:    Calculating math sizes for size <12.045> on input line 317.
 
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 316.
+(hyperref)                removing `math shift' on input line 317.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\pm' on input line 316.
+(hyperref)                removing `\pm' on input line 317.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 316.
+(hyperref)                removing `math shift' on input line 317.
 
 LaTeX Font Info:    Calculating math sizes for size <10.03749> on input line 32
-1.
+2.
 [1{c:/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/texlive/202
 3/texmf-dist/fonts/enc/dvips/base/8r.enc}
 
 
 ] [2] [3]
-Underfull \hbox (badness 1552) in paragraph at lines 453--454
+Underfull \hbox (badness 1552) in paragraph at lines 454--455
 []\OT1/ptm/m/n/10.03749 What for-mu-las de-scribe the be-haviour of our
  []
 
 [4] [5] [6]
-Underfull \hbox (badness 5036) in paragraph at lines 563--565
+Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on in
+put line 581.
+
+Underfull \hbox (badness 5036) in paragraph at lines 600--602
 \OT1/ptm/m/n/10.03749 Instead, it will il-lus-trate based on pseu-docode the
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 563--565
+Underfull \hbox (badness 10000) in paragraph at lines 600--602
 
  []
 
-
-Underfull \hbox (badness 2913) in paragraph at lines 599--600
+[7]
+Underfull \hbox (badness 2913) in paragraph at lines 636--637
 []\OT1/ptm/m/n/10.03749 Copying/reproducing sec-tions of an-other
  []
 
 
-Underfull \hbox (badness 2698) in paragraph at lines 601--602
+Underfull \hbox (badness 2698) in paragraph at lines 638--639
 \OT1/ptm/m/n/10.03749 for one-self and sub-mit-ting/pub-lish-ing it
  []
 
-[7]
-Underfull \hbox (badness 3209) in paragraph at lines 726--729
+
+Underfull \hbox (badness 3209) in paragraph at lines 763--766
 [] \OT1/ptm/m/n/8.03 BiCS Bach-e-lor Semester Project Re-port Tem-plate.
  []
 
 
-Underfull \hbox (badness 3209) in paragraph at lines 742--745
+Underfull \hbox (badness 3209) in paragraph at lines 779--782
 [] \OT1/ptm/m/n/8.03 BiCS Bach-e-lor Semester Project Re-port Tem-plate.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 758--761
+Underfull \hbox (badness 10000) in paragraph at lines 795--798
 []\OT1/ptm/m/n/8.03 Lorenzo Schw-ert-ner Kauf-mann,
  []
 
 
-Underfull \hbox (badness 1675) in paragraph at lines 758--761
+Underfull \hbox (badness 1675) in paragraph at lines 795--798
 \OT1/ptm/m/n/8.03 Flavio Paulus Franzin, Roberto Mene-gais, Ce-sar Tadeu Pozzer
 .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 758--761
+Underfull \hbox (badness 10000) in paragraph at lines 795--798
 \OT1/ptm/m/n/8.03 Ac-cu-rate Real-Time Physics Sim-u-la-tion for Large Worlds.
  []
 
+[8
+pdfTeX warning (ext4): destination with the same identifier (name{cite.bics-bsp
+-report-template}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.818 \newpage
+              
+pdfTeX warning (ext4): destination with the same identifier (name{cite.bics-bsp
+-reference-document}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.818 \newpage
+              
+pdfTeX warning (ext4): destination with the same identifier (name{cite.armstron
+g2017guidelinesforscience}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.818 \newpage
+              ]
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -595,37 +652,21 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[8
-pdfTeX warning (ext4): destination with the same identifier (name{cite.bics-bsp
--report-template}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.792 \end{document}
-                    
-pdfTeX warning (ext4): destination with the same identifier (name{cite.bics-bsp
--reference-document}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.792 \end{document}
-                    
-pdfTeX warning (ext4): destination with the same identifier (name{cite.armstron
-g2017guidelinesforscience}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.792 \end{document}
-                    ] (./main.aux)
+[9
+
+] (./main.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 37F968055E40F7CC531E8049B7174A52;10392.
+(rerunfilecheck)             Checksum: 6EA636BB7484AD9AF6473B3AA50D7D9B;10392.
  ) 
 Here is how much of TeX's memory you used:
- 13408 strings out of 476017
- 215449 string characters out of 5793766
+ 14036 strings out of 476017
+ 225772 string characters out of 5793766
  1872660 words of memory out of 5000000
- 33637 multiletter control sequences out of 15000+600000
- 554813 words of font info for 109 fonts, out of 8000000 for 9000
+ 34246 multiletter control sequences out of 15000+600000
+ 557044 words of font info for 112 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  75i,8n,117p,1006b,1093s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/tex
@@ -640,10 +681,10 @@ ive/2023/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2023/texmf-dis
 t/fonts/type1/urw/times/utmbi8a.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw
 /times/utmr8a.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/times/utmri8a.pfb
 >
-Output written on main.pdf (8 pages, 182218 bytes).
+Output written on main.pdf (9 pages, 190560 bytes).
 PDF statistics:
- 433 PDF objects out of 1000 (max. 8388607)
- 393 compressed objects within 4 object streams
- 90 named destinations out of 1000 (max. 500000)
+ 441 PDF objects out of 1000 (max. 8388607)
+ 400 compressed objects within 4 object streams
+ 92 named destinations out of 1000 (max. 500000)
  465 words of extra memory for PDF output out of 10000 (max. 10000000)
 
