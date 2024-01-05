@@ -637,7 +637,7 @@ $$ Q = \begin{pmatrix}
 	0 & 1 & 0 \\
 	-sin(\Theta_{y}) & 0 & cos(\Theta_{y})
 \end{pmatrix} $$
-To compute the position of the object after the rotation of the camera, it is necessary to multiply $\vec{v}$ with $Q$. This ensures, that the movement is relative to the rotation of the camera and not absolute, which means, that it would only move in the direction relative to the coordinate system (i.e. instead of moving forward on press of W with a 90° rotation relative to origin, it would move sidewards relative to the camera).
+To compute the position of the object after the rotation of the camera, it is necessary to multiply $\vec{v}$ with $Q$. This ensures, that the movement is relative to the rotation of the camera and not absolute, which means, that it would only move in the direction relative to the coordinate system (i.e. instead of moving forward on press of \keystroke{W} with a 90° rotation relative to origin, it would move sidewards relative to the camera).
 \subsection{Assessment (0/150 words)}
 \section{Satellite and gravity}
 \label{sec-satellite-gravity}
