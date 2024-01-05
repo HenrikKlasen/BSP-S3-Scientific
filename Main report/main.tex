@@ -603,7 +603,7 @@ Instead, it will illustrate based on pseudocode the algorithmic approach of move
 \subsection{Design (85/300 words)}
 This section mostly relies on \cite{UnityDoc} and Linear Algebra for coming up with formulas and code. Next to this, simple formulas from mechanical physics are used to show the relation between time and movement. This will result in a formula based on a time $t$ and a time factor $f$, such that all functions, such as $s(t), v(t), a(t)$ are dependent on $f \cdot t$. \\
 To conclude, these formulas will then be translated into code, understandable by a computer using the Unity Programming Interface.
-\subsection{Production (0/400 words)}
+\subsection{Production (170/400 words)}
 \subsubsection{Modelling the camera} \hfill \\
 As the camera object is not part of the solar system, let us assume, that the forces present in the solar system do not affect the camera. This will let us simplify the camera movement to movement with a constant velocity $v$. As v is constant, we know from basic mechanical physics, that $$s(t) = v \cdot t$$ Since we want to move the object in three dimensions, we need to transform all variables, except the time $t$ into three-dimensional vectors. This implies, that in order of transforming the given formula for translation into a three-dimensional formula for translation, we will only have to use the vector $\vec{v}$, since t can be seen as a scalar. This means, that our final formula is:
 $$\vec{s}(t) = \vec{v} \cdot t + s_{0}$$
