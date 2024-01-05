@@ -624,7 +624,7 @@ This implies, that the final formula, with Q dependent on $\Theta$ and $\phi$, w
 \vec{s}(t) = Q(\Theta, \phi) \cdot \vec{v} \cdot t$$
 To simplify the above formula in words: Instead of moving in an absolute coordinate system, relative to the origin, we define ourselves the camera as the origin of a new coordinate system, where x, y and z are always forwards/backwards, sidewards and up-/downwards. This means, that controlling the camera is a bit more natural, as it always going exactly where the user is expecting it to move.
 \subsubsection{Time warp} \hfill\\
-
+The idea behind time warp in this project is, to speed up the objects, while still having the same physics apply to them. This basically means, that any formula in dependence on $\Delta t$ (time-difference) will have to have a factor f to apply the time warp.
 \subsection{Assessment (0/150 words)}
 \section{Satellite and gravity}
 \label{sec-satellite-gravity}
