@@ -600,7 +600,7 @@ Translated to pseudocode, this would imply the following script.
 This section will be mostly about the camera, camera controller and the time controller scripts of the Unity project. It will focus on the coding aspects as well as some mathematical background from Linear Algebra, such as Vectors and point transformations. Since this section is not based on physics, it does not rely on results from \ref{sec-modeling} and \ref{sec-simplify}.\\
 Instead, it will illustrate based on pseudocode the algorithmic approach of movement in three dimensional space. \\
 
-\subsection{Design (0/300 words)}
+\subsection{Design (85/300 words)}
 This section mostly relies on \cite{UnityDoc} and Linear Algebra for coming up with formulas and code. Next to this, simple formulas from mechanical physics are used to show the relation between time and movement. This will result in a formula based on a time $t$ and a time factor $f$, such that all functions, such as $s(t), v(t), a(t)$ are dependent on $f \cdot t$. \\
 To conclude, these formulas will then be translated into code, understandable by a computer using the Unity Programming Interface.
 \subsection{Production (0/400 words)}
@@ -609,6 +609,7 @@ As the camera object is not part of the solar system, let us assume, that the fo
 $$\vec{s}(t) = \vec{v} \cdot t + s_{0}$$
 where $s_{0}$ is the previous position of the camera.\\
 Given, that we can also rotate the camera, we need to introduce a rotation matrix $Q$, which is given by the two rotation matrices around the x-axis and the y-axis.
+
 \subsection{Assessment (0/150 words)}
 \section{Satellite and gravity}
 \label{sec-satellite-gravity}
