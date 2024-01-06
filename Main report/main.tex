@@ -643,9 +643,11 @@ As already discussed in \ref{satellite}, the satellite cannot be simplified to s
 \begin{enumerate}
 	\item Find all celestial bodies in the enclosed system, access the relevant data and plug it into the formula
 	\item Find a velocity $v_{0}$ and a gravitational constant $\gamma$, which enable the satellite to have a stable orbit (i.e. to not crash into the sun)
-	\item Implement Prograde and Retrograde burning by scaling the vectors.
+	\item Implement Prograde and Retrograde burning by scaling the vectors and time warp
 \end{enumerate}
-% $$ \vec{v_{n}}(t) = (\gamma \cdot \sum_{i=1}^{10}{\frac{m_{i}}{\vec{r_{i}}^{2}}}) \cdot (\Delta t)^{2} + \vec{v}_{n-1} $$
+To recall the relevant formula: 
+$$ \vec{v_{n}}(t) = (\gamma \cdot \sum_{i=1}^{10}{\frac{m_{i}}{\vec{r_{i}}^{2}}}) \cdot (\Delta t)^{2} + \vec{v}_{n-1} $$
+Given this formula, we can observe, that we require each celestial bodies position for calculating the distance $r_{i}$ and the celestial bodies mass $m_{i}$ 
 \subsection{Assessment (0/150 words)}
 
 
