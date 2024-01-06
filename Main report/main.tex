@@ -629,7 +629,12 @@ To simplify the above formula in words: Instead of moving in an absolute coordin
 The idea behind time warp in this project is, to speed up the objects, while still having the same physics apply to them. This basically means, that any formula in dependence on $\Delta t$ (time-difference) will have to have a factor f to apply the time warp. \\
 The main intention behind this is, to minimize the time for observation of some behaviour, such as planetary constellations, higher gravitational pull of the satellite in one direction and the planet orbits in general. \\
 The only object, on which time warp does not apply is the main camera, as it does not have physical properties, because it is only a tool of visualization of the program.\\
-To control the time warp factor, there is a script which controls every script dependent on time. For the planet orbit algorithm for example this would mean, that $\alpha = |\vec{v}| \cdot f$ instead of $\alpha = |\vec{v}|$. For the planet orbits, this implies, that the planet will move more distance in each frame, which eventually results in a higher velocity (in the model it stays the same, as all objects speed up by the same factor). In the end, this means, that all physical objects (i.e. celestial bodies and satellite) are affected by this, such that it does not introduce errors.
+To control the time warp factor, there is a script which controls every script dependent on time. For the planet orbit algorithm for example this would mean, that $\alpha = |\vec{v}| \cdot f$ instead of $\alpha = |\vec{v}|$. For the planet orbits, this implies, that the planet will move more distance in each frame, which eventually results in a higher velocity (in the model it stays the same, as all objects speed up by the same factor). In the end, this means, that all physical objects (i.e. celestial bodies and satellite) are affected by this, such that it does not introduce errors. \\
+The keys for time warp are:
+\begin{itemize}
+	\item \keys{1} - Decrease time warp factor
+	\item \keys{2} - Increase time warp factor
+\end{itemize}
 \subsection{Assessment (0/150 words)}
 \section{Satellite and gravity}
 \label{sec-satellite-gravity}
@@ -650,7 +655,7 @@ $$ \vec{v_{n}}(t) = (\gamma \cdot \sum_{i=1}^{10}{\frac{m_{i}}{\vec{r_{i}}^{2}}}
 Given this formula, we can observe, that we require each celestial bodies position for calculating the distance $r_{i}$ and the celestial bodies mass $m_{i}$, as well as the satellites previous velocity vector $\vec{v}_{n-1}$.
 \subsubsection{Determining celestial bodies, fetching data and finding constants} \hfill \\
 Our model has ten celestial bodies (the sun, all planets and Pluto). Since we want to simplify our algorithm as much as possible, we can save all celestial bodies in a game object array, over which we can iterate. \\
-As it is necessary to access this array every frame update, it is the most resource efficient, to initialize this game object array upon startup of the program. It is possible to do this, as the game objects do not change, but only the attributes get updated to different values.
+As it is necessary to access this array every frame update, it is the most resource efficient, to initialize this game object array upon startup of the program. It is possible to do this, as the game objects do not change, but only the attributes get updated to different values. 
 
 
 \subsection{Assessment (0/150 words)}
