@@ -641,9 +641,9 @@ This section will focus on the technical aspects of the scientific findings from
 \subsection{Production (0/400 words)}
 As already discussed in \ref{satellite}, the satellite cannot be simplified to static orbits, as it is very much influenced by the bigger celestial bodies. With this in mind, there is a three step approach to coming up with the algorithm for the satellite object.
 \begin{enumerate}
-	\item Find all celestial bodies in the enclosed system, access the relevant data and plug it into the formula
-	\item Find a velocity $v_{0}$ and a gravitational constant $\gamma$, which enable the satellite to have a stable orbit (i.e. to not crash into the sun)
-	\item Implement Prograde and Retrograde burning by scaling the vectors and time warp
+	\item Find all celestial bodies in the enclosed system, access the relevant data and plug it into the formula.
+	\item Find a velocity $v_{0}$ and a gravitational constant $\gamma$, which enable the satellite to have a stable orbit (i.e. to not crash into the sun).
+	\item Implement Prograde and Retrograde burning by scaling the vectors and time warp.
 \end{enumerate}
 To recall the relevant formula: 
 $$ \vec{v_{n}}(t) = (\gamma \cdot \sum_{i=1}^{10}{\frac{m_{i}}{\vec{r_{i}}^{2}}}) \cdot (\Delta t)^{2} + \vec{v}_{n-1} $$
