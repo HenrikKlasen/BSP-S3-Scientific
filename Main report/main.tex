@@ -650,7 +650,7 @@ $$ \vec{v_{n}}(t) = (\gamma \cdot \sum_{i=1}^{10}{\frac{m_{i}}{\vec{r_{i}}^{2}}}
 Given this formula, we can observe, that we require each celestial bodies position for calculating the distance $r_{i}$ and the celestial bodies mass $m_{i}$, as well as the satellites previous velocity vector $\vec{v}_{n-1}$.
 \subsubsection{Determining celestial bodies, fetching data and finding constants} \hfill \\
 Our model has ten celestial bodies (the sun, all planets and Pluto). Since we want to simplify our algorithm as much as possible, we can save all celestial bodies in a game object array, over which we can iterate. \\
-As it is necessary to access this array every frame update, it is the most resource efficient, to initialize this game object array upon startup of the program. 
+As it is necessary to access this array every frame update, it is the most resource efficient, to initialize this game object array upon startup of the program. It is possible to do this, as the game objects do not change, but only the attributes get updated to different values.
 
 
 \subsection{Assessment (0/150 words)}
