@@ -670,9 +670,8 @@ The transform property is given in every game object and determines its position
 	\caption{Rigid body class determining mass.}
 \end{figure}
 
-The rigid body class has the public attribute mass. Instead of defining it on our own, which would not have been an issue, since it is just a floating point number, we access this attribute. In doing so, it might enable more future features if needed. \\ 
-The mass stored in the rigid body attribute will become the value $m_{i}$ for plugging into the formula.
-
+The rigid body class has the public attribute mass. Instead of defining it on our own, which would not have been an issue, since it is just a floating point number, we access this attribute. In doing so, it might enable more future features if needed. The mass stored in the rigid body attribute will become the value $m_{i}$ for plugging into the formula. \\
+Now, that all necessary data is fetched from the game objects after iterating over the array of celestial bodies, it is time to determine the constants. $\vec{v_{0}}$ and $\gamma$ have to be found.
 
 \subsection{Assessment (0/150 words)}
 
