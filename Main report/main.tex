@@ -679,6 +679,8 @@ A spacecraft can alter its orbit by altering the vector of the resulting force. 
 	\item If $p < 1$: orbital velocity gets smaller, resulting in a lower orbit. This is a retrograde orbit manipulation.
 	\item If $p > 1$: The orbital velocity gets higher, resulting in a higher orbit apoapsis. This is a prograde manipulation.
 \end{itemize}
+To apply this in the formula, we need to introduce p.
+$$ \vec{v_{n}}(t) = p\cdot ((\gamma \cdot \sum_{i=1}^{10}{\frac{m_{i}}{\vec{r_{i}}^{2}}}) \cdot (\Delta t)^{2} + \vec{v}_{n-1}) $$
 \subsection{Assessment (0/150 words)}
 
 
