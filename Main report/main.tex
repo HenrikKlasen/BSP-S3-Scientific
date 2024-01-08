@@ -681,7 +681,8 @@ A spacecraft can alter its orbit by altering the vector of the resulting force. 
 \end{itemize}
 To apply this in the formula, we need to introduce p.
 $$ \vec{v_{n}}(t) = p\cdot ((\gamma \cdot \sum_{i=1}^{10}{\frac{m_{i}}{\vec{r_{i}}^{2}}}) \cdot (\Delta t)^{2} + \vec{v}_{n-1}) $$
-As we did not yet introduce time warp in this formula, it is necessary to change $\Delta t$ to $f\cdot \Delta t$ 
+As we did not yet introduce time warp in this formula, it is necessary to change $\Delta t$ to $f\cdot \Delta t$.
+$$ \vec{v_{n}}(t) = p\cdot((\gamma \cdot \sum_{i=1}^{10}{\frac{m_{i}}{\vec{r_{i}}^{2}}}) \cdot (f\cdot\Delta t)^{2} + \vec{v}_{n-1}) $$
 \subsection{Assessment (0/150 words)}
 
 
