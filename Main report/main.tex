@@ -674,6 +674,7 @@ The rigid body class has the public attribute mass. Instead of defining it on ou
 Now, that all necessary data is fetched from the game objects after iterating over the array of celestial bodies, it is time to determine the constants. $\vec{v_{0}}$ and $\gamma$ have to be found. As the scale of the system is 1:1, but the mass-size proportion is not 1:1, $\gamma$ acts as a correcting factor. Instead of using the normal gravitational constant of $6.6743 \cdot 10^{-11}$, which is a very small number resulting in very small amount of force, the factor will be $66.743$. We simply multiply by $10^12$. The value of this was found in the trial and error method. Single precision floating point numbers are precise enough to represent this. \\
 For $v_{0}$, we have the condition, that it enables the satellite object to have a stable orbit around the sun. If $v_{0}$ is too small, the satellite will have a collision course with the sun. If it is too large, it is going on an escape trajectory, eventually reaching a space, where the gravitational pull of the sun and all other celestial bodies become negligible.
 \subsubsection{Prograde and retrograde orbit manipulation} \hfill\\
+A spacecraft can alter its orbit by altering the vector of the resulting force. 
 \subsection{Assessment (0/150 words)}
 
 
