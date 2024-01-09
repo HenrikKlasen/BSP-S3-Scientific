@@ -389,7 +389,7 @@ As the user will be able to control the camera, it will be required for this pro
 	\item \keys{\arrowkeyup} – Rotation Upwards (X-Axis)
 	\item \keys{\arrowkeydown} – Rotation Downwards (X-Axis)
 \end{itemize}
-Furthermore the  satellite will be controllable by the user, to ensure, that the user gets a better understanding of the complexity of navigating in a three-dimensional space under the influence of gravitational pull to other celestial bodies. 
+Furthermore the  satellite will be controllable by the user, to ensure, that the user gets a better understanding of the complexity of navigating in a three-dimensional space under the influence of gravitational pull to other celestial body's. 
 
 
 
@@ -652,9 +652,9 @@ As already discussed in \ref{satellite}, the satellite cannot be simplified to s
 \end{enumerate}
 To recall the relevant formula: 
 $$ \vec{v_{n}}(t) = (\gamma \cdot \sum_{i=1}^{10}{\frac{m_{i}}{\vec{r_{i}}^{2}}}) \cdot (\Delta t)^{2} + \vec{v}_{n-1} $$
-Given this formula, we can observe, that we require each celestial bodies position for calculating the distance $r_{i}$ and the celestial bodies mass $m_{i}$, as well as the satellites previous velocity vector $\vec{v}_{n-1}$.
+Given this formula, we can observe, that we require each celestial bodies position for calculating the distance $r_{i}$ and the celestial bodies mass $m_{i}$, as well as the satellite's previous velocity vector $\vec{v}_{n-1}$.
 \subsubsection{Determining celestial bodies, fetching data and finding constants} \hfill \\
-Our model has ten celestial bodies (the sun, all planets and Pluto). Since we want to simplify our algorithm as much as possible, we can save all celestial bodies in a game object array, over which we can iterate. \\
+Our model has ten celestial body's (the sun, all planets and Pluto). Since we want to simplify our algorithm as much as possible, we can save all celestial body's in a game object array, over which we can iterate. \\
 As it is necessary to access this array every frame update, it is the most resource efficient, to initialize this game object array upon startup of the program. It is possible to do this, as the game objects do not change, but only the attributes get updated to different values. \\
 Let us look at the important attribute classes for an example body. Given, that we want to calculate the distance from the satellite to the celestial body, we need the position.
 \begin{figure}[!h]
@@ -671,8 +671,8 @@ The transform property is given in every game object and determines its position
 \end{figure}
 
 The rigid body class has the public attribute mass. Instead of defining it on our own, which would not have been an issue since it is just a floating point number, we access this attribute. In doing so, it might enable more future features if needed. The mass stored in the rigid body attribute will become the value $m_{i}$ for plugging into the formula. \\
-Now, that all necessary data is fetched from the game objects after iterating over the array of celestial bodies, it is time to determine the constants $\vec{v_{0}}$ and $\gamma$.  As the scale of the system is 1:1, but the mass-size proportion is not 1:1, $\gamma$ acts as a correcting factor. Instead of using the normal gravitational constant of $6.6743 \cdot 10^{-11}$, which is a very small number resulting in very small amount of force, the factor will be $66.743$. We simply multiply by $10^12$. The value of this was found in the trial and error method. Single precision floating point numbers are precise enough to represent this. \\
-For $v_{0}$, we have the condition, that it enables the satellite object to have a stable orbit around the sun. If $v_{0}$ is too small, the satellite will have a collision course with the sun. If it is too large, it is going on an escape trajectory, eventually reaching a space, where the gravitational pull of the sun and all other celestial bodies become negligible.
+Now, that all necessary data is fetched from the game objects after iterating over the array of celestial body's, it is time to determine the constants $\vec{v_{0}}$ and $\gamma$.  As the scale of the system is 1:1, but the mass-size proportion is not 1:1, $\gamma$ acts as a correcting factor. Instead of using the normal gravitational constant of $6.6743 \cdot 10^{-11}$, which is a very small number resulting in very small amount of force, the factor will be $66.743$. We simply multiply by $10^12$. The value of this was found in the trial and error method. Single precision floating point numbers are precise enough to represent this. \\
+For $v_{0}$, we have the condition, that it enables the satellite object to have a stable orbit around the sun. If $v_{0}$ is too small, the satellite will have a collision course with the sun. If it is too large, it is going on an escape trajectory, eventually reaching a space, where the gravitational pull of the sun and all other celestial body's become negligible.
 \subsubsection{Prograde and retrograde orbit manipulation} \hfill\\
 A spacecraft can alter its orbit by altering the vector of the resulting force. For prograde and retrograde orbit manipulation it is done by scaling the velocity vector by a scalar factor $p$. For this the following rules apply:
 \begin{itemize}
