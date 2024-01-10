@@ -294,7 +294,7 @@ Email: gabriel.garcia@uni.lu}%
 % As a general rule, do not put math, special symbols or citations
 % in the abstract
 \begin{abstract}
-Dieses Bachelor Semester Projekt behandelt den Prozess der mathematischen Modellierung für wissenschaftliche Simulationen. Als Fallbeispiel hierfür wird eine dreidimensionale Simulation für das Sonnensystem aufgeführt. (208/800 $\rightarrow$ ca. 26\%)
+Dieses Bachelor Semester Projekt behandelt den Prozess der mathematischen Modellierung für wissenschaftliche Simulationen. Als Fallbeispiel hierfür wird eine dreidimensionale Simulation für das Sonnensystem aufgeführt. (260/800 $\rightarrow$ ca. 26\%)
 \end{abstract}
 
 % no keywords
@@ -316,8 +316,15 @@ In der wissenschaftlichen Arbeit dieses Projektes geht es zunächst um das Finde
 So ist der erste Schritt die Observierung der Umgebung. Hier kann man sich bei der Erstellung des Modells die Fragen stellen: Welches Verhalten weist die Modellvorlage auf? Welche Randfälle gibt es? \\
 Im zweiten Schritt geht es um die Problembeschreibung. Hierbei geht es vor allem darum, dass das zu simulierende Verhalten aus der Modellvorlage exakt beschrieben wird und man auch erste Vereinfachungen des Modells stellt. Es hilft hier auch eine Liste an Funktionen aufzusetzen, die in dem Modell sein \emph{müssen}, und eine Liste mit Funktionen, die das Modell erweitern würden, jedoch nicht zum ursprünglichen Zweck des Modells nötig sind. \\
 Der dritte Schritt in dieser Ausarbeitung dient der mathematischen Modellierung. Hierbei wird das beobachtete Verhalten mit mathematischen Formeln beschrieben, oder wenn nicht anders möglich angenähert. Es ist hierbei von Vorteil, wenn hier weitere Vereinfachungen eingeführt werde, deren Auswirkungen auf das Modell marginal sind. \\ 
-Mit dem vierten Schritt wird das algorithmische Design angeführt. In diesem geht es darum, die Ergebnisse aus der mathematischen Modellierung in (ressourcenschonende) Algorithmen umzuwandeln. Vor allem rekursive Formeln sind hierbei in iterative Prozeduren umzuwandeln, da Rekursion sehr rechenintensiv sein kann. 
-
+Mit dem vierten Schritt wird das algorithmische Design angeführt. In diesem geht es darum, die Ergebnisse aus der mathematischen Modellierung in (ressourcenschonende) Algorithmen umzuwandeln. Vor allem rekursive Formeln sind hierbei in iterative Prozeduren umzuwandeln, da Rekursion sehr rechenintensiv sein kann, oder aber Variablen einzuführen, die das Zwischenergebnis und somit für spätere Berechnungen verfügbar machen. 
+Abschließend gibt es einige Leitfragen um die Schritte zu vereinfachen. 
+\begin{enumerate}
+	\item Welches Verhalten ist zu beobachten?
+	\item Was wollen wir simulieren? Was für ein Problem ist zu simulieren? Welche Eigenschaften soll das Modell haben?
+	\item Welche Formeln beschreiben die zu simulierende Umgebung und diegenannten Eigenschaften? Gibt es ausreichende Annäherungen um Ressourcen zu sparen?
+	\item Wie können wir die Formeln in Algorithmen umwandeln?
+\end{enumerate}
+In den danach folgenden Sektionen geht es vor allem um das Fallbeispiel und die Durchführung der Schritte 1-3.
 \section{Technische Arbeit}
 \begin{thebibliography}{1}
 \bibitem[BiCS(2021)]{bics-bsp-report-template}
